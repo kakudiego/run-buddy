@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -17,7 +18,7 @@ header {
 }
 
 header h1 {
-  /* using shorthand properties */
+  /* using shorthand properties font-weight, font-size and color*/
   font: bold 36px #fce138;
   margin: 0;
   display: inline;
@@ -41,4 +42,26 @@ header nav ul li {
 header nav ul li a {
   margin: 0 30px;
   font: lighter 22px;
+}
+
+footer {
+  background-color: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+}
+
+footer h2 {
+  display: inline;
+  font: 30px #024e76;
+  margin: 0;
+}
+
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer div a {
+  color: #024e76;
 }
