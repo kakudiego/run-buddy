@@ -18,8 +18,9 @@ header {
 }
 
 header h1 {
-  /* using shorthand properties font-weight, font-size and color*/
-  font: bold 36px #fce138;
+  font-size: 36px;
+  font-weight: bold;
+  color: #fce138;
   margin: 0;
   display: inline;
 }
@@ -41,7 +42,8 @@ header nav ul li {
 
 header nav ul li a {
   margin: 0 30px;
-  font: lighter 22px;
+  font-weight: lighter;
+  font-size: 22px;
 }
 
 footer {
@@ -52,7 +54,8 @@ footer {
 
 footer h2 {
   display: inline;
-  font: 30px #024e76;
+  font-size: 30px;
+  color: #024e76;
   margin: 0;
 }
 
@@ -80,7 +83,7 @@ section {
 
 .hero-form {
   /* shorthand properties */
-  border: solid 3px #024e76;
+  border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
   width: 500px;
@@ -107,7 +110,8 @@ section {
   border: 1px solid #024e76;
   display: block;
   padding: 7px 15px;
-  font: 16px #024e76;
+  font-size: 16px;
+  color: #024e76;
   width: 100%;
   margin-bottom: 15px;
 }
